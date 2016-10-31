@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Etch-a-Sketch</title>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script type="text/javascript" src="./js/main.js"></script>
-	<title>Etch-a-Sketch</title>
 </head>
 <body>
 <div class="container"></div>
+<div class="button-area">
+	<button  onclick="resizeGrid()">Resize Grid</button> 
+	<button  onclick="color = 'random'">Random Colors</button> 
+	<button  onclick="color = 'black'">Back to Black</button>
+</div>
 </body>
 </html>

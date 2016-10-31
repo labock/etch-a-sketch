@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+button {
+	width: 100px;
+	height: 60px;
+	float: left;
+}
+.container {
+	height: 500px;
+	width: 500px;
+	margin: auto;
+	border: 0.1px solid grey;
+	border-radius: 2px;
+	display: block;
+}
+.button-area{
+	width: 500px;
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+.square{
+	float: left;
+}
